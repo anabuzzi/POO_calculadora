@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_display"
+        android:layout_width="349dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="76dp"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickButton7"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="116dp"
+        android:onClick="onClickButton4"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="116dp"
+        android:onClick="onClickButton5"
+        android:text="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="116dp"
+        android:onClick="onClickButton6"
+        android:text="6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="204dp"
+        android:onClick="onClickButton1"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_2"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="204dp"
+        android:onClick="onClickButton2"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="174dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="40dp"
+        android:onClick="onClickButton0"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="204dp"
+        android:onClick="onClickButton3"
+        android:text="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickButton8"
+        android:text="8"
+        app:layout_constraintEnd_toStartOf="@+id/btn_9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickButton9"
+        android:text="9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_mais"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickAdd"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_menos"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="116dp"
+        android:onClick="onClickSub"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_display" />
+
+    <Button
+        android:id="@+id/btn_multiplicacao"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="308dp"
+        android:onClick="onClickMul"
+        android:text="*"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menos" />
+
+    <Button
+        android:id="@+id/btn_igual"
+        android:layout_width="86dp"
+        android:layout_height="83dp"
+        android:onClick="onClickEqual"
+        android:text="="
+        app:layout_constraintEnd_toEndOf="@+id/btn_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2" />
+
+    <Button
+        android:id="@+id/btn_divisao"
+        android:layout_width="82dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:onClick="onClickDiv"
+        android:text="/"
+        app:layout_constraintStart_toEndOf="@+id/btn_igual"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1" />
+
+    <TextView
+        android:id="@+id/tv_logDisplay"
+        android:layout_width="348dp"
+        android:layout_height="45dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="21dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
